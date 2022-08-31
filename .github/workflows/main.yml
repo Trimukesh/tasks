@@ -6,7 +6,7 @@ jobs:
    name: javaprogram
    runs-on: windows-latest
    steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: setup jdk
         uses: actions/setup-java@v1
         with:
