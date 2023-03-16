@@ -4,9 +4,9 @@ on: [workflow_dispatch]
 jobs:
     build:
       name: Run Script
-      runs-on: ubuntu-latest
+      runs-on: windows-latest
       steps:
         - uses: actions/checkout@v1
         - name: Script
           run: |
-           .\test.ps1
+           ./test.ps1
